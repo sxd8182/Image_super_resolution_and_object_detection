@@ -1,0 +1,26 @@
+# Core
+torch>=2.0
+torchvision
+opencv-python
+pillow
+numpy
+pandas
+matplotlib
+tqdm
+
+# YOLOv11
+ultralytics==8.3.127
+
+# Super-resolution
+transformers
+diffusers
+accelerate
+Real-ESRGAN @ git+https://github.com/xinntao/Real-ESRGAN.git
+basicsr @ git+https://github.com/xinntao/BasicSR.git
+
+# Label alignment / Augmentation
+albumentations
+
+# Optional analysis / visualisation
+seaborn
+scipy
